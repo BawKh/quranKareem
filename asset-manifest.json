@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quranKareem/static/css/main.41ee6027.css",
-    "main.js": "/quranKareem/static/js/main.4f40301a.js",
+    "main.js": "/quranKareem/static/js/main.0bdfb623.js",
     "static/js/453.6b45e22c.chunk.js": "/quranKareem/static/js/453.6b45e22c.chunk.js",
     "static/media/icon.png": "/quranKareem/static/media/icon.44961af90e8d5f95fe4e.png",
     "static/media/quran-bg.jpg": "/quranKareem/static/media/quran-bg.cb581541d078e119030a.jpg",
@@ -13,11 +13,11 @@
     "static/media/Abu Bakr Al-Shatri.jpg": "/quranKareem/static/media/Abu Bakr Al-Shatri.cc4e297fbc59442ba0d5.jpg",
     "index.html": "/quranKareem/index.html",
     "main.41ee6027.css.map": "/quranKareem/static/css/main.41ee6027.css.map",
-    "main.4f40301a.js.map": "/quranKareem/static/js/main.4f40301a.js.map",
+    "main.0bdfb623.js.map": "/quranKareem/static/js/main.0bdfb623.js.map",
     "453.6b45e22c.chunk.js.map": "/quranKareem/static/js/453.6b45e22c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ee6027.css",
-    "static/js/main.4f40301a.js"
+    "static/js/main.0bdfb623.js"
   ]
 }
