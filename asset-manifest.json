@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BawKh/quranKareem.git/static/css/main.8fb6fd33.css",
+    "main.js": "/BawKh/quranKareem.git/static/js/main.afe8b01c.js",
+    "static/js/453.6b45e22c.chunk.js": "/BawKh/quranKareem.git/static/js/453.6b45e22c.chunk.js",
+    "static/media/icon.png": "/BawKh/quranKareem.git/static/media/icon.44961af90e8d5f95fe4e.png",
+    "static/media/quran-bg.jpg": "/BawKh/quranKareem.git/static/media/quran-bg.cb581541d078e119030a.jpg",
+    "static/media/moshaph.png": "/BawKh/quranKareem.git/static/media/moshaph.7ef363bbce22f3673ddb.png",
+    "static/media/end-ayah.jpg": "/BawKh/quranKareem.git/static/media/end-ayah.671a476f66bfe900c68b.jpg",
+    "static/media/Mishary Rashid Al-Afasy.jpg": "/BawKh/quranKareem.git/static/media/Mishary Rashid Al-Afasy.a48d9112bb73a26b772a.jpg",
+    "static/media/herosection.jpg": "/BawKh/quranKareem.git/static/media/herosection.5988449f7cda6b451e47.jpg",
+    "static/media/Quran2.png": "/BawKh/quranKareem.git/static/media/Quran2.0df938bbbadff6d5468e.png",
+    "static/media/Abu Bakr Al-Shatri.jpg": "/BawKh/quranKareem.git/static/media/Abu Bakr Al-Shatri.cc4e297fbc59442ba0d5.jpg",
+    "index.html": "/BawKh/quranKareem.git/index.html",
+    "main.8fb6fd33.css.map": "/BawKh/quranKareem.git/static/css/main.8fb6fd33.css.map",
+    "main.afe8b01c.js.map": "/BawKh/quranKareem.git/static/js/main.afe8b01c.js.map",
+    "453.6b45e22c.chunk.js.map": "/BawKh/quranKareem.git/static/js/453.6b45e22c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fb6fd33.css",
+    "static/js/main.afe8b01c.js"
+  ]
+}
