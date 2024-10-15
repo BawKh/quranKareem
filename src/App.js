@@ -10,8 +10,9 @@ function App() {
   return (
     <>
       <NavBar />
-      <Routes basename="/quranKareem">
-        <Route path="/" element={<Home />}></Route>
+      <Routes>
+        <Route path="/quranKareem" element={<Home />}></Route>
+        <Route path="" element={<Home />}></Route>
         <Route path="/moshaph" element={<Moshaph />}></Route>
         <Route path="/moshaph/:surahID" element={<Surahs />}></Route>
       </Routes>
