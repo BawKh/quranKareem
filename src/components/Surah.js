@@ -7,6 +7,7 @@ import Row from "react-bootstrap/esm/Row";
 import AyahAudioPlayer from "./Ayah";
 import Col from "react-bootstrap/esm/Col";
 import Button from "react-bootstrap/esm/Button";
+import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 function Surahs({ currant }) {
   const [Reciter, setReciter] = useState(1);
@@ -129,53 +130,52 @@ function Surahs({ currant }) {
                 />
               ))}
           </div>
-          <Row
-            className="fixed-buttons justify-content-center"
-            style={{ position: "absolute", bottom: "-20px", width: "100%" }}
+          <ButtonGroup
+            className="fixed-buttons justify-content-center btn-group"
+            style={{
+              position: "absolute",
+              bottom: "-20px",
+              width: "20%",
+              borderRadius: "5px",
+            }}
           >
-            <Col xs="1" className="text-center">
-              <Button
-                variant="danger"
-                onClick={() => SetisPlaying(false)}
-                style={{
-                  transition: "transform 0.3s ease, background-color 0.3s ease",
-                }}
-              >
-                stop
-              </Button>
-            </Col>
-            <Col xs="1" className="text-center">
-              <Button
-                variant="dark"
-                onClick={() => SetisPlaying(true)}
-                style={{
-                  transition: "transform 0.3s ease, background-color 0.3s ease",
-                  width: "fill-content",
-                  overflow: "hidden",
-                }}
-              >
-                play
-              </Button>
-            </Col>
-            <Col xs="1" className="text-center">
-              <Button
-                variant="success"
-                onClick={() => {
-                  return (
-                    Played === false &&
-                    StartPlay(
-                      document.getElementById(`audio-${params.surahID}-${0}`)
-                    )
-                  );
-                }}
-                style={{
-                  transition: "transform 0.3s ease, background-color 0.3s ease",
-                }}
-              >
-                start
-              </Button>
-            </Col>
-          </Row>
+            <Button
+              variant="success"
+              onClick={() => {
+                return (
+                  Played === false &&
+                  StartPlay(
+                    document.getElementById(`audio-${params.surahID}-${0}`)
+                  )
+                );
+              }}
+              style={{
+                transition: "transform 0.3s ease, background-color 0.3s ease",
+              }}
+            >
+              start
+            </Button>
+            <Button
+              variant="dark"
+              onClick={() => SetisPlaying(true)}
+              style={{
+                transition: "transform 0.3s ease, background-color 0.3s ease",
+                width: "fill-content",
+                overflow: "hidden",
+              }}
+            >
+              play
+            </Button>
+            <Button
+              variant="danger"
+              onClick={() => SetisPlaying(false)}
+              style={{
+                transition: "transform 0.3s ease, background-color 0.3s ease",
+              }}
+            >
+              stop
+            </Button>
+          </ButtonGroup>
         </Row>
       </div>
       <Row>
